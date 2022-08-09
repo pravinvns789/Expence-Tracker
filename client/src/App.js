@@ -42,7 +42,7 @@ const App=()=> {
   }
 
   return (
-    <div>
+    <div className='App-header'>
       <NewExpense onSaveExpense={onSaveHandler}/>
       <Expenses items={expenses} />
     </div>
