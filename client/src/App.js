@@ -9,7 +9,11 @@ function App() {
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
-    { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
+    { 
+      id: "e2", 
+      title: "New TV", 
+      amount: 799.49, 
+      date: new Date(2021, 2, 12) },
     {
       id: "e3",
       title: "Car Insurance",
@@ -23,12 +27,11 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-  
+
   return (
-    <div>
+    <div className="first">
       <h1>Hey</h1>
-      <Expenses expenses={expenses}/>
-    
+      <Expenses expenses={expenses} />
     </div>
   );
 }
