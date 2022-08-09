@@ -28,10 +28,14 @@ const App=()=> {
       date: new Date(2021, 5, 12),
     },
   ];
+  const onSaveHandler=(inputData)=>{
+    
+
+  }
 
   return (
-    <div className="first">
-      <NewExpense/>
+    <div>
+      <NewExpense onSaveExpense={onSaveHandler}/>
       <Expenses expenses={expenses} />
     </div>
   );
