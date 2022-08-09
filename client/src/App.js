@@ -43,8 +43,10 @@ const App=()=> {
 
   return (
     <div className='App-header'>
+      <div>
       <NewExpense onSaveExpense={onSaveHandler}/>
       <Expenses items={expenses} />
+      </div>
     </div>
   );
 }
